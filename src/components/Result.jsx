@@ -1,6 +1,6 @@
 const Result = () => {
   return (
-    <div className="background flex flex-col items-center p-8 gap-8 w-1/2 rounded-2xl">
+    <div className="background flex flex-col items-center p-8 gap-8 w-1/2 sm:rounded-2xl max-sm:rounded-b-2xl max-sm:w-full">
       <h3 className="text-gray-300 text-xl">Your Result</h3>
       <div className="circle rounded-full p-8 w-[180px] h-[180px] flex flex-col items-center justify-center">
         <h1 className="text-center text-white text-5xl font-extrabold">76</h1>
